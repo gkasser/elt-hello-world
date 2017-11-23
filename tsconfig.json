@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "amd",
+        "moduleResolution": "node",
+        "declaration": true,
+        "sourceMap": true,
+	      "strict": true,
+        "jsx": "react",
+        "jsxFactory": "E",
+        "lib": ["es6", "dom"]
+    },
+    "exclude": ["node_modules"],
+    "files": [
+        "./src/app.tsx"
+    ]
+}

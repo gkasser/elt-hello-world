@@ -1,0 +1,14 @@
+{
+        "name": "elt-hello-world",
+        "private": true,
+        "version": "0.0.1",
+        "scripts": {
+                "watch": "concurrently -n tsc,webpack -c blue,green 'tsc -w' 'webpack -w --entry ./src/app.js ./static/app.js'"
+        },
+        "dependencies": {
+                "concurrently": "^3.5.1",
+                "elt": "^1.0.0-alpha5",
+                "elt-material": "^0.3.1",
+                "webpack": "^3.8.1"
+        }
+}
