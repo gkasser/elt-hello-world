@@ -1,7 +1,7 @@
-import {setupMounting} from 'elt'
+import {mount, o} from 'elt'
 import {Button} from 'elt-material'
 
-setupMounting(document)
+mount(document)
 
 document.body.appendChild(<div>
         <div>Hello world !</div>
